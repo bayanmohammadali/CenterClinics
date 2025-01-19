@@ -7,7 +7,7 @@
       "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:.vs\\CenterClinics\\v17\\DocumentLayout.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{74299199-B231-4141-B816-7D7B74613C7A}|CenterClinics\\CenterClinics.csproj|c:\\users\\nzaml\\source\\repos\\centerclinics\\centerclinics\\admin.aspx||{57312C73-6202-49E9-B1E1-40EA1A6DC1F6}",
+      "AbsoluteMoniker": "D:0:0:{74299199-B231-4141-B816-7D7B74613C7A}|CenterClinics\\CenterClinics.csproj|C:\\Users\\nzaml\\source\\repos\\CenterClinics\\centerclinics\\admin.aspx||{57312C73-6202-49E9-B1E1-40EA1A6DC1F6}",
       "RelativeMoniker": "D:0:0:{74299199-B231-4141-B816-7D7B74613C7A}|CenterClinics\\CenterClinics.csproj|solutionrelative:centerclinics\\admin.aspx||{57312C73-6202-49E9-B1E1-40EA1A6DC1F6}"
     },
     {
@@ -175,8 +175,7 @@
               "RelativeToolTip": "CenterClinics\\Admin.aspx",
               "LogicalView": "7651a703-06e5-11d1-8ebd-00a0c90f26ea",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000195|",
-              "WhenOpened": "2025-01-19T18:43:12.744Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-01-19T18:43:12.744Z"
             }
           ]
         }
