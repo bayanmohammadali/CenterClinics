@@ -1,0 +1,169 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "C:\\Users\\nzaml\\source\\repos\\CenterClinics\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Users\\nzaml\\source\\repos\\CenterClinics\\CenterClinics\\Admin.aspx||{57312C73-6202-49E9-B1E1-40EA1A6DC1F6}",
+      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:CenterClinics\\Admin.aspx||{57312C73-6202-49E9-B1E1-40EA1A6DC1F6}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Users\\nzaml\\source\\repos\\CenterClinics\\CenterClinics\\ConnectionToTheData.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:CenterClinics\\ConnectionToTheData.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Users\\nzaml\\source\\repos\\CenterClinics\\CenterClinics\\Login.aspx.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:CenterClinics\\Login.aspx.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Users\\nzaml\\source\\repos\\CenterClinics\\CenterClinics\\Login.aspx||{57312C73-6202-49E9-B1E1-40EA1A6DC1F6}",
+      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:CenterClinics\\Login.aspx||{57312C73-6202-49E9-B1E1-40EA1A6DC1F6}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Users\\nzaml\\source\\repos\\CenterClinics\\CenterClinics\\SignUp.aspx||{57312C73-6202-49E9-B1E1-40EA1A6DC1F6}",
+      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:CenterClinics\\SignUp.aspx||{57312C73-6202-49E9-B1E1-40EA1A6DC1F6}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Users\\nzaml\\source\\repos\\CenterClinics\\CenterClinics\\Model\\Specialty.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:CenterClinics\\Model\\Specialty.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Users\\nzaml\\source\\repos\\CenterClinics\\CenterClinics\\WebForm1.aspx.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:CenterClinics\\WebForm1.aspx.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Users\\nzaml\\source\\repos\\CenterClinics\\CenterClinics\\Admin.aspx.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:CenterClinics\\Admin.aspx.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Users\\nzaml\\source\\repos\\CenterClinics\\CenterClinics\\WebForm1.aspx||{57312C73-6202-49E9-B1E1-40EA1A6DC1F6}",
+      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:CenterClinics\\WebForm1.aspx||{57312C73-6202-49E9-B1E1-40EA1A6DC1F6}"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 0,
+      "VerticalTabListWidth": 100,
+      "DocumentGroups": [
+        {
+          "DockedWidth": 200,
+          "SelectedChildIndex": 8,
+          "Children": [
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "ConnectionToTheData.cs",
+              "DocumentMoniker": "C:\\Users\\nzaml\\source\\repos\\CenterClinics\\CenterClinics\\ConnectionToTheData.cs",
+              "RelativeDocumentMoniker": "CenterClinics\\ConnectionToTheData.cs",
+              "ToolTip": "C:\\Users\\nzaml\\source\\repos\\CenterClinics\\CenterClinics\\ConnectionToTheData.cs",
+              "RelativeToolTip": "CenterClinics\\ConnectionToTheData.cs",
+              "ViewState": "AQIAAHAAAAAAAAAAAAAowGAAAAAdAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-01-19T18:43:12.688Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "Login.aspx.cs",
+              "DocumentMoniker": "C:\\Users\\nzaml\\source\\repos\\CenterClinics\\CenterClinics\\Login.aspx.cs",
+              "RelativeDocumentMoniker": "CenterClinics\\Login.aspx.cs",
+              "ToolTip": "C:\\Users\\nzaml\\source\\repos\\CenterClinics\\CenterClinics\\Login.aspx.cs",
+              "RelativeToolTip": "CenterClinics\\Login.aspx.cs",
+              "ViewState": "AQIAACcAAAAAAAAAAAAiwEYAAAA2AAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-01-19T18:43:12.732Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "Login.aspx",
+              "DocumentMoniker": "C:\\Users\\nzaml\\source\\repos\\CenterClinics\\CenterClinics\\Login.aspx",
+              "RelativeDocumentMoniker": "CenterClinics\\Login.aspx",
+              "ToolTip": "C:\\Users\\nzaml\\source\\repos\\CenterClinics\\CenterClinics\\Login.aspx",
+              "RelativeToolTip": "CenterClinics\\Login.aspx",
+              "LogicalView": "7651a703-06e5-11d1-8ebd-00a0c90f26ea",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000195|",
+              "WhenOpened": "2025-01-19T18:43:12.734Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "SignUp.aspx",
+              "DocumentMoniker": "C:\\Users\\nzaml\\source\\repos\\CenterClinics\\CenterClinics\\SignUp.aspx",
+              "RelativeDocumentMoniker": "CenterClinics\\SignUp.aspx",
+              "ToolTip": "C:\\Users\\nzaml\\source\\repos\\CenterClinics\\CenterClinics\\SignUp.aspx",
+              "RelativeToolTip": "CenterClinics\\SignUp.aspx",
+              "LogicalView": "7651a703-06e5-11d1-8ebd-00a0c90f26ea",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000195|",
+              "WhenOpened": "2025-01-19T18:43:12.736Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 5,
+              "Title": "Specialty.cs",
+              "DocumentMoniker": "C:\\Users\\nzaml\\source\\repos\\CenterClinics\\CenterClinics\\Model\\Specialty.cs",
+              "RelativeDocumentMoniker": "CenterClinics\\Model\\Specialty.cs",
+              "ToolTip": "C:\\Users\\nzaml\\source\\repos\\CenterClinics\\CenterClinics\\Model\\Specialty.cs",
+              "RelativeToolTip": "CenterClinics\\Model\\Specialty.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAA0AAAABAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-01-19T18:43:12.737Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 6,
+              "Title": "WebForm1.aspx.cs",
+              "DocumentMoniker": "C:\\Users\\nzaml\\source\\repos\\CenterClinics\\CenterClinics\\WebForm1.aspx.cs",
+              "RelativeDocumentMoniker": "CenterClinics\\WebForm1.aspx.cs",
+              "ToolTip": "C:\\Users\\nzaml\\source\\repos\\CenterClinics\\CenterClinics\\WebForm1.aspx.cs",
+              "RelativeToolTip": "CenterClinics\\WebForm1.aspx.cs",
+              "ViewState": "AQIAACgAAAAAAAAAAAAuwDoAAAARAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-01-19T18:43:12.739Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 7,
+              "Title": "Admin.aspx.cs",
+              "DocumentMoniker": "C:\\Users\\nzaml\\source\\repos\\CenterClinics\\CenterClinics\\Admin.aspx.cs",
+              "RelativeDocumentMoniker": "CenterClinics\\Admin.aspx.cs",
+              "ToolTip": "C:\\Users\\nzaml\\source\\repos\\CenterClinics\\CenterClinics\\Admin.aspx.cs",
+              "RelativeToolTip": "CenterClinics\\Admin.aspx.cs",
+              "ViewState": "AQIAADYAAAAAAAAAAAAjwEMAAAAPAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-01-19T18:43:12.741Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 8,
+              "Title": "WebForm1.aspx",
+              "DocumentMoniker": "C:\\Users\\nzaml\\source\\repos\\CenterClinics\\CenterClinics\\WebForm1.aspx",
+              "RelativeDocumentMoniker": "CenterClinics\\WebForm1.aspx",
+              "ToolTip": "C:\\Users\\nzaml\\source\\repos\\CenterClinics\\CenterClinics\\WebForm1.aspx",
+              "RelativeToolTip": "CenterClinics\\WebForm1.aspx",
+              "LogicalView": "7651a703-06e5-11d1-8ebd-00a0c90f26ea",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000195|",
+              "WhenOpened": "2025-01-19T18:43:12.743Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "Admin.aspx",
+              "DocumentMoniker": "C:\\Users\\nzaml\\source\\repos\\CenterClinics\\CenterClinics\\Admin.aspx",
+              "RelativeDocumentMoniker": "CenterClinics\\Admin.aspx",
+              "ToolTip": "C:\\Users\\nzaml\\source\\repos\\CenterClinics\\CenterClinics\\Admin.aspx",
+              "RelativeToolTip": "CenterClinics\\Admin.aspx",
+              "LogicalView": "7651a703-06e5-11d1-8ebd-00a0c90f26ea",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000195|",
+              "WhenOpened": "2025-01-19T18:43:12.744Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{1c4feeaa-4718-4aa9-859d-94ce25d182ba}"
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}
