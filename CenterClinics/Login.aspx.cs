@@ -18,9 +18,8 @@ namespace CenterClinics
         {
             string firstName = InputFirstName.Text;
             string password = InputPassword.Text;
-
-            // الاتصال بقاعدة البيانات والتحقق من المستخدم
-            DataTable user = ConnectionToTheData.checkUser(firstName, password);
+            ConnectionToTheData connection = new ConnectionToTheData();
+            DataTable user = connection.checkUser(firstName, password);
 
             if (user != null && user.Rows.Count > 0)
             {

@@ -17,48 +17,55 @@ namespace CenterClinics
         }
         protected void Button1_Click(object sender, EventArgs e)
         {
-            GetDoctorsAndFillTable();
-        }
+            ConnectionToTheData connection = new ConnectionToTheData();
 
-        private void GetDoctorsAndFillTable()
+            DataTable dt = connection.GetDoctors();
+            GridView1.DataSource = dt;
+            GridView1.DataBind();
+
+        }
+        protected void Button2_Click(object sender, EventArgs e)
         {
-            try
+            ConnectionToTheData connection = new ConnectionToTheData();
+
+            DataTable dtt = connection.GetPatients();
+            GridView2.DataSource = dtt;
+            GridView2.DataBind();
+        }
+        protected void Button3_Click(object sender, EventArgs e)
+        {
+            ConnectionToTheData connection = new ConnectionToTheData();
+
+            DataTable dtt = connection.GetClinics();
+            GridView3.DataSource = dtt;
+            GridView3.DataBind();
+        }
+        protected void btnAddClinic_Click(object sender, EventArgs e)
+        {
+            string name = txtClinicName.Text;
+            string open = txtOpenTime.Text;
+            string close = txtCloseTime.Text;
+            int specialtyID;
+            if (int.TryParse(txtSpecialtyID.Text, out specialtyID))
             {
-                ConnectionToTheData connectionToData = new ConnectionToTheData();
-                DataTable dataTable = connectionToData.GetDoctors();
-                Table1.Rows.Clear(); // لتنظيف الجدول من أي صفوف سابقة
-
-                // إضافة الأعمدة (رؤوس الجدول)
-                TableHeaderRow headerRow = new TableHeaderRow();
-                foreach (DataColumn column in dataTable.Columns)
-                {
-                    TableHeaderCell headerCell = new TableHeaderCell();
-                    headerCell.Text = column.ColumnName;
-                    headerRow.Cells.Add(headerCell);
+                ConnectionToTheData connection = new ConnectionToTheData();
+                bool success = connection.AddClinic(name, open, close, specialtyID);
+                if (success)
+                { // تظهر رسالة النجاح
+                    Response.Write("تم إضافة العيادة بنجاح.");
                 }
-                Table1.Rows.Add(headerRow);
-
-                // إضافة الصفوف (بيانات الجدول)
-                foreach (DataRow row in dataTable.Rows)
-                {
-                    TableRow tableRow = new TableRow();
-                    foreach (DataColumn column in dataTable.Columns)
-                    {
-                        TableCell tableCell = new TableCell();
-                        tableCell.Text = row[column].ToString();
-                        tableRow.Cells.Add(tableCell);
-                    }
-                    Table1.Rows.Add(tableRow);
+                else { // تظهر رسالة الخطأ
+                    Response.Write("حدث خطأ أثناء الإضافة.");
                 }
             }
-            catch (Exception ex)
+            else
             {
-                // التعامل مع الاستثناء هنا
-                // يمكنك عرض رسالة خطأ أو تسجيل الاستثناء
-                Response.Write("<script>alert('" + ex.Message + "');</script>");
+                Response.Write("يرجى إدخال رقم صحيح لمعرف التخصص.");
             }
         }
-    }
+    }  
+    
+       
 }
 
 
