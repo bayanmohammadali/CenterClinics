@@ -28,7 +28,7 @@
    
     <form id="form1" runat="server">
         <div>
-            <h3>Admin pags:</h3>
+            <h3>Admin page:</h3>
         </div>
     </form>
 </body>

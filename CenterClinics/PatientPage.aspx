@@ -4,12 +4,12 @@
 
 <html xmlns="http://www.w3.org/1999/xhtml">
 <head runat="server">
-    <title></title>
+    <title>Patient page</title>
 </head>
 <body>
     <form id="form1" runat="server">
         <div>
-             <h3>Patient pags:</h3>
+             <h3>Patient page:</h3>
         </div>
     </form>
 </body>
