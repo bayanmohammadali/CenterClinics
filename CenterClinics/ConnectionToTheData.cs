@@ -16,17 +16,17 @@ namespace CenterClinics
         SqlConnection connection = null;
         SqlCommand command;
 
-        public DataTable checkUser(string firstName, string passwordHash)
+        public DataTable checkUser(string email, string passwordHash)
         {
             string sql = @"SELECT u.UserID, u.UserType, u.FirstName, u.LastName, u.Gender, u.Email, u.Password, u.Phone_Number, u.Address 
                   FROM Users u 
-                  WHERE u.FirstName = @firstName AND u.Password = @passwordHash";
+                  WHERE u.Email = @email AND u.Password = @passwordHash";
             var dt = new DataTable();
 
             using (var connection = new SqlConnection(connectionString))
             using (var command = new SqlCommand(sql, connection))
             {
-                command.Parameters.AddWithValue("@firstName", firstName);
+                command.Parameters.AddWithValue("@email", email);
                 command.Parameters.AddWithValue("@passwordHash", passwordHash);
                 var dataAdapter = new SqlDataAdapter(command);
                 dataAdapter.Fill(dt);
