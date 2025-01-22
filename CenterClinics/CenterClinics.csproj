@@ -214,6 +214,8 @@
     <Compile Include="Login.aspx.designer.cs">
       <DependentUpon>Login.aspx</DependentUpon>
     </Compile>
+    <Compile Include="Model\Clinic.cs" />
+    <Compile Include="Model\Specialty.cs" />
     <Compile Include="PatientPage.aspx.cs">
       <DependentUpon>PatientPage.aspx</DependentUpon>
       <SubType>ASPXCodeBehind</SubType>

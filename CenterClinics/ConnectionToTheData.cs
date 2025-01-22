@@ -112,7 +112,7 @@ namespace CenterClinics
                         return true;
                     }
                     catch (Exception ex)
-                    { // التعامل مع الخطأ (يمكنك تسجيل الخطأ إذا لزم الأمر)
+                    {
                         Console.WriteLine(ex.Message);
                         return false;
                     }
@@ -120,6 +120,42 @@ namespace CenterClinics
             }
 
         }
+        public DataTable GetSpecialties()
+        {
+            DataTable dataTable = new DataTable();
+
+            using (connection = new SqlConnection(connectionString))
+            {
+                sql = "SELECT * from Specialties";
+                using (SqlCommand sqlCommand = new SqlCommand(sql, connection))
+                {
+                    connection.Open();
+                    using (SqlDataAdapter sqlDataAdapter = new SqlDataAdapter(sqlCommand))
+                    {
+                        sqlDataAdapter.Fill(dataTable);
+                    }
+                }
+            }
+            return dataTable;
+        }
+
+
+        public void AddSpecialty(string specialtyName)
+        {
+            using (SqlConnection con = new SqlConnection(connectionString))
+            {
+                con.Open();
+                string query = "INSERT INTO Specialties (SpecialtyName) VALUES (@specialtyName)";
+                using (SqlCommand cmd = new SqlCommand(query, con))
+                {
+                    cmd.Parameters.AddWithValue("@specialtyName", specialtyName);
+                    cmd.ExecuteNonQuery();
+                }
+            }
+        }
+
+
+
     }
 
 }
